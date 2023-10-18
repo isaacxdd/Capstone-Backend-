@@ -6,4 +6,4 @@ class Album(models.Model):
     country = models.CharField(max_length=200)
     city = models.CharField(max_length=200)
     hotel = models.CharField(max_length=200)
-    memory = models.CharField(max_length=200)
+    memory = models.CharField(max_length=50000)
