@@ -21,7 +21,7 @@ from albums.views import AlbumViewSet
 
 # create a new router
 router = routers.DefaultRouter()
-# register TodoViewSet with the router
+# register AlbumViewSet with the router
 router.register(r"albums", AlbumViewSet)
 
 print(router.urls)

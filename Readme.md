@@ -15,8 +15,8 @@
 - Django
 - Postman
 - Python
-- flask
-- neon
+- mojo
+-tailwind
 </br>
 
 ## Backend Endpoints
